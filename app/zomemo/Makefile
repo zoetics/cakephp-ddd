@@ -4,3 +4,6 @@
 	php composer-setup.php
 	php -r "unlink('composer-setup.php');"
 	mv composer.phar /bin/composer
+
+config/.env:
+	cp config/.env.example .env
